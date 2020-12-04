@@ -1,6 +1,6 @@
 {
-  "name": "create-fullstack-app-cli",
-  "version": "1.0.0",
+  "name": "create-fullstack-app",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,14 @@
   "bin": {
     "cfa": "./index.js"
   },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "path": "^0.12.7",
+    "yargs": "^16.1.1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finxindustries/create-fullstack-app-cli.git"
+    "url": "git+https://github.com/finxindustries/create-fullstack-app.git"
   },
   "keywords": [
     "fullstack",
@@ -36,7 +41,7 @@
   "author": "",
   "license": " GPL-3.0",
   "bugs": {
-    "url": "https://github.com/finxindustries/create-fullstack-app-cli/issues"
+    "url": "https://github.com/finxindustries/create-fullstack-app/issues"
   },
-  "homepage": "https://github.com/finxindustries/create-fullstack-app-cli#readme"
+  "homepage": "https://github.com/finxindustries/create-fullstack-app#readme"
 }
