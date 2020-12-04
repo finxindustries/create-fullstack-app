@@ -1,1 +1,1 @@
-# create-fullstack-app [![npm](https://img.shields.io/npm/v/create-fullstack-app-cli?style=plastic)](https://www.npmjs.com/package/create-fullstack-app-cli) ![license GPL-3.0](https://img.shields.io/github/license/finxindustries/create-fullstack-app?style=plastic)
+# create-fullstack-app-cli [![npm](https://img.shields.io/npm/v/create-fullstack-app-cli?style=plastic)](https://www.npmjs.com/package/create-fullstack-app-cli) ![license GPL-3.0](https://img.shields.io/github/license/finxindustries/create-fullstack-app-cli?style=plastic)
