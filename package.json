@@ -1,0 +1,42 @@
+{
+  "name": "create-fullstack-app-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cfa": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finxindustries/create-fullstack-app-cli.git"
+  },
+  "keywords": [
+    "fullstack",
+    "react",
+    "nextjs",
+    "netcore",
+    "dart",
+    "typescript",
+    "mysql",
+    "flutter",
+    "frontend",
+    "backend",
+    "client",
+    "server",
+    "grpc",
+    "microservices",
+    "docker",
+    "kubernetes",
+    "create-react-app",
+    "create-next-app"
+  ],
+  "author": "",
+  "license": " GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/finxindustries/create-fullstack-app-cli/issues"
+  },
+  "homepage": "https://github.com/finxindustries/create-fullstack-app-cli#readme"
+}
