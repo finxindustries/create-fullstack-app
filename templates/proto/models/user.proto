@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package ____template_placeholder_____grpc.models.user;
+option csharp_namespace = "____template_placeholder_____grpc.models.user";
+
+message User {
+    string id = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string email = 4;
+    string phone = 5;
+    string password = 8;
+}

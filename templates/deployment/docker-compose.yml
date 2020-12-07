@@ -1,0 +1,55 @@
+version: "3"
+
+volumes:
+  dbdata_user_service_local:
+
+services:
+  db_user_service_local:
+    image: mysql:5.7
+    restart: always
+    command: --explicit_defaults_for_timestamp
+    environment:
+      MYSQL_DATABASE: "db"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "password"
+      MYSQL_ROOT_PASSWORD: "password"
+    volumes:
+      - dbdata_user_service_local:/var/lib/mysql
+  api_gateway_service_local:
+    image: ____template-placeholder____-api-gateway-service:latest
+    ports:
+      - "6080:80"
+    environment:
+      - PORT=80
+      - AUTHENTICATION_USER_SERVICE_HOST=authentication_user_service_local
+      - AUTHENTICATION_USER_SERVICE_PORT=7082
+  api_gateway_grpc_web_service_local:
+    image: ____template-placeholder____-api-gateway-grpc-web-service:latest
+    ports:
+      - "6081:80"
+    environment:
+      - PORT=80
+      - AUTHENTICATION_USER_SERVICE_HOST=authentication_user_service_local
+      - AUTHENTICATION_USER_SERVICE_PORT=7082
+  user_service_local:
+    image: ____template-placeholder____-user-service:latest
+    environment:
+      - PORT=7080
+      - DB_USERNAME=user
+      - DB_PASSWORD=password
+      - DB_DATABASE=db
+      - DB_HOST=db_user_service_local:3306
+    env_file:
+      - .env
+  authentication_user_service_local:
+    image: ____template-placeholder____-authentication-user-service:latest
+    environment:
+      - PORT=7082
+      - EMAIL_SERVICE_HOST=email_service_local
+      - EMAIL_SERVICE_PORT=7083
+      - USER_SERVICE_HOST=user_service_local
+      - USER_SERVICE_PORT=7080
+  email_service_local:
+    image: ____template-placeholder____-email-service:latest
+    environment:
+      - PORT=7083

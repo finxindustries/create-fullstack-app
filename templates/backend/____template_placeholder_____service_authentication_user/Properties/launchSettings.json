@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "____template_placeholder_____service_authentication_user": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

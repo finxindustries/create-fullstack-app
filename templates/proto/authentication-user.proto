@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+import "models/user.proto";
+package ____template_placeholder_____grpc.authentication_user;
+option csharp_namespace = "____template_placeholder_____grpc.authentication_user";
+
+service AuthenticationUser {
+    // User
+    rpc Login(LoginRequest) returns (LoginResponse);
+    rpc Signup(SignupRequest) returns (SignupResponse);
+};
+
+message LoginRequest {
+    string email = 1;
+    string password = 2;
+};
+
+message LoginResponse {
+    string jwt = 1;
+    models.user.User user = 2; 
+};
+
+message SignupRequest {
+    models.user.User user = 1;
+};
+
+message SignupResponse {
+    string jwt = 1;
+    models.user.User user = 2; 
+};

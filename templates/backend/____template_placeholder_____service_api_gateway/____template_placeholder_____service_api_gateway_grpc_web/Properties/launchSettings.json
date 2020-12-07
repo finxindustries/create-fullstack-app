@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "____template_placeholder_____service_api_gateway": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:80",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

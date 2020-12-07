@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "authentication-user.proto";
+package ____template_placeholder_____grpc.api_gateway;
+option csharp_namespace = "____template_placeholder_____grpc.api_gateway";
+
+service ApiGateway {
+    rpc LoginUser(authentication_user.LoginRequest) returns (authentication_user.LoginResponse);
+    rpc SignupUser(authentication_user.SignupRequest) returns (authentication_user.SignupResponse);
+};

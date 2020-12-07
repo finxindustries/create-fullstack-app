@@ -1,0 +1,8 @@
+{
+  "[dart]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false,
+    "editor.suggest.insertMode": "replace"
+  }
+}

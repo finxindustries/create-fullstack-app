@@ -1,9 +1,9 @@
-# create-fullstack-app [![npm](https://img.shields.io/npm/v/@finxindustries/create-fullstack-app?style=plastic)](https://www.npmjs.com/package/@finxindustries/create-fullstack-app) [![license GPL-3.0](https://img.shields.io/github/license/finxindustries/create-fullstack-app?style=plastic)](https://github.com/finxindustries/create-fullstack-app/blob/master/LICENSE)
-**This is a work in progress!**
-
-Generate a fullstack app using GRPC, .NET Core 3.1, Node.js, Docker, Flutter and/or React.
+# ____template_placeholder____
+Created with cfa.
 
 ## Prerequisites
+
+This app is run using Docker, Make, Flutter, .NET Core 3.1 and Node.js.
 
 - **Docker**: <br/>
 https://www.docker.com/products/docker-desktop
@@ -47,6 +47,15 @@ Recommended Visual Studio Code extensions:
 <br/>https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
 <br/>https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme
 
+Run on first git clone:
+
+```
+$ sudo chmod +x ./setup.sh
+$ sudo chmod +x ./updateProtos.sh
+$ sudo chmod +x ./genProtoStubs.sh
+$ ./setup.sh
+```
+
 ## How to run backend
 
 ```
@@ -58,23 +67,23 @@ $ cd deployment && make
 ```
 backend
 │
-└───service_api_gateway
+└───____template_placeholder_____service_api_gateway
 │   │   .NET Core 3.1 Api Gateway Service
 │   │   Available at: http://localhost:6080
 │
-└───service_api_gateway_grpc_web
+└───____template_placeholder_____service_api_gateway_grpc_web
 │   │   .NET Core 3.1 Api Gateway Grpc Web Service
 │   │   Available at: http://localhost:6081
 │
-└───service_authentication_user
+└───____template_placeholder_____service_authentication_user
 │   │   .NET Core 3.1 Authentication User Service
 │   │   Internal port: 7082
 │
-└───service_email
+└───____template_placeholder_____service_email
 │   │   Node.js Email Service
 │   │   Internal port: 7083
 │
-└───service_user
+└───____template_placeholder_____service_user
     │   .NET Core 3.1 User Service
     │   Internal port: 7080
     │   MySQL DB

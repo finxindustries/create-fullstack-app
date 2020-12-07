@@ -1,0 +1,1 @@
+export 'package:____template_placeholder_____client_user_flutter/services/grpc/grpc_interface.dart';

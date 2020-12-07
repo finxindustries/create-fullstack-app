@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
+    "command-exists": "^1.2.9",
     "path": "^0.12.7",
-    "yargs": "^16.1.1"
+    "prompt-sync": "^4.2.0",
+    "replace-in-file": "^6.1.0"
   },
   "repository": {
     "type": "git",

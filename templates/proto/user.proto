@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+import "models/user.proto";
+package ____template_placeholder_____grpc.user;
+option csharp_namespace = "____template_placeholder_____grpc.user";
+
+service User {
+    rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);
+    rpc GetUser(GetUserRequest) returns (GetUserResponse);
+    rpc GetUserByEmail(GetUserByEmailRequest) returns (GetUserByEmailResponse);
+    rpc CheckCredentials(CheckCredentialsRequest) returns (CheckCredentialsResponse);
+};
+
+message CreateUserRequest {
+    models.user.User user = 1;
+};
+
+message CreateUserResponse {
+    models.user.User user = 1;
+    bool done = 2;
+    string message = 3;
+};
+
+message GetUserRequest {
+    string id = 1;
+};
+
+message GetUserResponse {
+    bool found = 1;
+    models.user.User user = 2;
+};
+
+message GetUserByEmailRequest {
+    string email = 1;
+};
+
+message GetUserByEmailResponse {
+    bool found = 1;
+    models.user.User user = 2;
+};
+
+message CheckCredentialsRequest {
+    string password = 1;
+}
+
+message CheckCredentialsResponse {
+    bool correct = 1;
+}
