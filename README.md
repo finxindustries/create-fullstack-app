@@ -1,7 +1,7 @@
 # create-fullstack-app [![npm](https://img.shields.io/npm/v/@finxindustries/create-fullstack-app?style=plastic)](https://www.npmjs.com/package/@finxindustries/create-fullstack-app) [![license GPL-3.0](https://img.shields.io/github/license/finxindustries/create-fullstack-app?style=plastic)](https://github.com/finxindustries/create-fullstack-app/blob/master/LICENSE)
-**This is a work in progress!**
-
 Generate a fullstack app using GRPC, .NET Core 3.1, Node.js, Docker, Flutter and/or React.
+
+**This is a work in progress!**
 
 ## Prerequisites
 
