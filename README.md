@@ -22,37 +22,6 @@ https://www.docker.com/products/docker-desktop
 - **Node.js**:
 <br/>https://nodejs.org/en/
 
-Recomanded IDEs: Visual Studio and/or Visual Studio Code
-
-- **Visual Studio**:
-<br/>macOS: https://visualstudio.microsoft.com/vs/mac
-<br/>Windows: https://visualstudio.microsoft.com/vs/community
-
-- **Visual Studio Code**:
-<br/>https://code.visualstudio.com/Download
-
-Recommended Visual Studio Code extensions:
-<br/>https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
-<br/>https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code
-<br/>https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
-<br/>https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
-<br/>https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin
-<br/>https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
-<br/>https://marketplace.visualstudio.com/items?itemName=discountry.react-redux-react-router-snippets
-<br/>https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format
-<br/>https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
-<br/>https://marketplace.visualstudio.com/items?itemName=basarat.god
-<br/>https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
-<br/>https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
-<br/>https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
-<br/>https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme
-
-## How to run backend
-
-```
-$ cd deployment && make
-```
-
 ## Services structure
 
 ```
