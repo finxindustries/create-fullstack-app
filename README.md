@@ -3,6 +3,13 @@ Generate a fullstack app using GRPC, .NET Core 3.1, Node.js, Docker, Flutter and
 
 **This is a work in progress!**
 
+## How to use
+
+```
+$ npx @finxindustries/create-fullstack-app my_app
+```
+More info about your app is available at `my_app/README.md`
+
 ## Prerequisites
 
 - **Docker**: <br/>
