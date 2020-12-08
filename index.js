@@ -44,7 +44,7 @@ if (fs.readdirSync(projectPath).length !== 0) {
 }
 
 projectAuthor = prompt("Author: ");
-projectMobileReverseDomain = prompt("Mobile Reverse Domain: ");
+projectMobileReverseDomain = prompt("Mobile Reverse Domain (ex: com.example): ");
 if (!/^[a-z.]+$/.test(projectMobileReverseDomain) || projectMobileReverseDomain === "") {
     console.log(chalk.red(`${projectName} is not an valid reverse domain! ex: com.example`));
     return 1;
